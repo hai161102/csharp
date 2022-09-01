@@ -30,6 +30,9 @@
         {
             this.conditionButton = new System.Windows.Forms.Button();
             this.loopButton = new System.Windows.Forms.Button();
+            this.conditionPanel = new System.Windows.Forms.Panel();
+            this.loopPanel = new System.Windows.Forms.Panel();
+            this.conditionPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // conditionButton
@@ -50,15 +53,34 @@
             this.loopButton.Text = "Loop";
             this.loopButton.UseVisualStyleBackColor = true;
             // 
+            // conditionPanel
+            // 
+            this.conditionPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.conditionPanel.Controls.Add(this.loopPanel);
+            this.conditionPanel.Location = new System.Drawing.Point(12, 12);
+            this.conditionPanel.Name = "conditionPanel";
+            this.conditionPanel.Size = new System.Drawing.Size(695, 426);
+            this.conditionPanel.TabIndex = 2;
+            // 
+            // loopPanel
+            // 
+            this.loopPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.loopPanel.Location = new System.Drawing.Point(0, 0);
+            this.loopPanel.Name = "loopPanel";
+            this.loopPanel.Size = new System.Drawing.Size(695, 426);
+            this.loopPanel.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.conditionPanel);
             this.Controls.Add(this.loopButton);
             this.Controls.Add(this.conditionButton);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.conditionPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -67,5 +89,7 @@
 
         private Button conditionButton;
         private Button loopButton;
+        private Panel conditionPanel;
+        private Panel loopPanel;
     }
 }
