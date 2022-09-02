@@ -1,0 +1,17 @@
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\bin\Debug\net6.0-windows\appBtvn.exe
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\bin\Debug\net6.0-windows\appBtvn.deps.json
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\bin\Debug\net6.0-windows\appBtvn.runtimeconfig.json
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\bin\Debug\net6.0-windows\appBtvn.dll
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\bin\Debug\net6.0-windows\appBtvn.pdb
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\obj\Debug\net6.0-windows\appBtvn.csproj.AssemblyReference.cache
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\obj\Debug\net6.0-windows\appBtvn.Form1.resources
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\obj\Debug\net6.0-windows\appBtvn.csproj.GenerateResource.cache
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\obj\Debug\net6.0-windows\appBtvn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\obj\Debug\net6.0-windows\appBtvn.AssemblyInfoInputs.cache
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\obj\Debug\net6.0-windows\appBtvn.AssemblyInfo.cs
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\obj\Debug\net6.0-windows\appBtvn.csproj.CoreCompileInputs.cache
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\obj\Debug\net6.0-windows\appBtvn.dll
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\obj\Debug\net6.0-windows\refint\appBtvn.dll
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\obj\Debug\net6.0-windows\appBtvn.pdb
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\obj\Debug\net6.0-windows\appBtvn.genruntimeconfig.cache
+C:\Users\vipvl\Source\Repos\csharp\appBtvn\obj\Debug\net6.0-windows\ref\appBtvn.dll

@@ -11,6 +11,7 @@
         ///  Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -32,6 +33,7 @@
             this.loopButton = new System.Windows.Forms.Button();
             this.conditionPanel = new System.Windows.Forms.Panel();
             this.loopPanel = new System.Windows.Forms.Panel();
+            this.labelCondition = new System.Windows.Forms.Label();
             this.conditionPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,12 +58,21 @@
             // conditionPanel
             // 
             this.conditionPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.conditionPanel.Controls.Add(this.loopPanel);
             this.conditionPanel.Location = new System.Drawing.Point(12, 12);
             this.conditionPanel.Name = "conditionPanel";
             this.conditionPanel.Size = new System.Drawing.Size(695, 426);
             this.conditionPanel.TabIndex = 2;
-            // 
+            this.conditionPanel.Padding = new System.Windows.Forms.Padding(200);
+            this.conditionPanel.Controls.Clear();
+            for (int i = 0; i < 20; i++)
+            {
+                string name = "Bai " + (i + 1);
+                this.conditionPanel.Controls.Add(setupButton(20,
+                           i * 20,
+                           100,
+                           20,
+                            name));
+            }
             // loopPanel
             // 
             this.loopPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -69,6 +80,26 @@
             this.loopPanel.Name = "loopPanel";
             this.loopPanel.Size = new System.Drawing.Size(695, 426);
             this.loopPanel.TabIndex = 3;
+            this.loopPanel.Controls.Clear();
+            for (int i = 0; i < 12; i++)
+            {
+                string name = "Bai " + (i + 1);
+                this.conditionPanel.Controls.Add(setupButton(20,
+                           i * 20,
+                           100,
+                           20,
+                            name));
+            }
+            this.loopPanel.Visible = false;
+            // 
+            // labelCondition
+            // 
+            this.labelCondition.Location = new System.Drawing.Point(0, 0);
+            this.labelCondition.Name = "labelCondition";
+            this.labelCondition.Size = new System.Drawing.Size(100, 23);
+            this.labelCondition.TabIndex = 0;
+            this.labelCondition.Text = "Haha";
+            this.labelCondition.ForeColor = Color.Black;
             // 
             // Form1
             // 
@@ -91,5 +122,16 @@
         private Button loopButton;
         private Panel conditionPanel;
         private Panel loopPanel;
+        private Label labelCondition;
+        private Button setupButton(int x, int y, int w, int h, string name)
+        {
+            Button button = new Button();
+            button.SetBounds(x, y, w, h);
+            button.Text = name;
+            button.BackColor = Color.White;
+            return button;
+        }
+
+        
     }
 }
