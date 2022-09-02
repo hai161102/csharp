@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vipvl\\Source\\Repos\\csharp\\appBtvn\\appBtvn.csproj": {}
+    "C:\\Users\\vipvl\\source\\repos\\csharp\\appBtvn\\appBtvn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vipvl\\Source\\Repos\\csharp\\appBtvn\\appBtvn.csproj": {
+    "C:\\Users\\vipvl\\source\\repos\\csharp\\appBtvn\\appBtvn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vipvl\\Source\\Repos\\csharp\\appBtvn\\appBtvn.csproj",
+        "projectUniqueName": "C:\\Users\\vipvl\\source\\repos\\csharp\\appBtvn\\appBtvn.csproj",
         "projectName": "appBtvn",
-        "projectPath": "C:\\Users\\vipvl\\Source\\Repos\\csharp\\appBtvn\\appBtvn.csproj",
+        "projectPath": "C:\\Users\\vipvl\\source\\repos\\csharp\\appBtvn\\appBtvn.csproj",
         "packagesPath": "C:\\Users\\vipvl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vipvl\\Source\\Repos\\csharp\\appBtvn\\obj\\",
+        "outputPath": "C:\\Users\\vipvl\\source\\repos\\csharp\\appBtvn\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
